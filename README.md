@@ -1,7 +1,7 @@
-#Rule Engine with AST Visualization
+# Rule Engine with AST Visualization
 A powerful Rule Engine application that leverages Abstract Syntax Tree (AST) structures for creating, modifying, combining, and evaluating rules. This app is designed to process complex rule conditions and provide a user-friendly UI for managing and visualizing these rules.
 
-#Table of Contents
+# Table of Contents
 Features
 Technology Stack
 Getting Started
@@ -9,7 +9,7 @@ Endpoints
 Rule Configuration and AST Structure
 Screenshots
 License
-#Features
+# Features
 1. Rule Creation and Management
 Create custom rules using AND, OR, and condition operators.
 Nested rules and complex conditions can be defined using the AST structure.
@@ -38,7 +38,7 @@ Notifications: React Hot Toast
 Getting Started
 To get started with this project locally, follow these steps:
 
-#Clone the Repository:
+# Clone the Repository:
 
 bash
 Copy code
@@ -91,11 +91,11 @@ Copy code
     }
   }
 }
-#Explanation of AST Nodes
+# Explanation of AST Nodes
 Type: Node type, either OPERATOR or CONDITION.
 Value: If the type is OPERATOR, the value can be AND or OR; if the type is CONDITION, it will be a specific condition (e.g., age > 30).
 Left and Right: These represent the left and right child nodes of an operator node.
 This AST format allows for the dynamic creation and evaluation of complex rule structures.
 
-#Screenshots
+# Screenshots
 Include screenshots here to show AST visualization, rule creation, and rule evaluation results.
